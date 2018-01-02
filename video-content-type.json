@@ -1,0 +1,76 @@
+{
+  "video": [
+    {
+      "id": "id",
+      "published": "2017-08-30T16:10:33+00:00",
+      "modified": "2017-08-30T16:10:33+00:00",
+      "owner": "Owner name",
+      "author": "Author name",
+      "filelength": "",
+      "unit": [ // there is one unit for each language
+        {
+          "language": { // follows the same format as all other content types
+            "language_code": "en",
+            "locale": "en-US",
+            "text_direction": false,
+            "display_name": "English",
+            "native_name": "English",
+            "different_language": true
+          },
+          "title": "Title of video",
+          "desc": "Description of video",
+          "categories": [
+            "Diplomacy",
+            "About America"
+          ],
+          "tags": [
+            "america",
+            "agreement"
+          ],
+          "source": [
+            {
+              "burnedInCaptions": false,
+              "downloadUrl": "",
+              "streamUrl": "",
+              "filetype": "mp4",
+              "size": {
+                "width": 640,
+                "height": 360,
+                "filesize": "12 MB",
+                "speed": "498 Kbp/s"
+              }
+            },
+            {
+              "burnedInCaptions": true,
+              "downloadUrl": "",
+              "streamUrl": "",
+              "filetype": "mov",
+              "size": {
+                "width": 480,
+                "height": 270,
+                "filesize": "9 MB",
+                "speed": "378 Kbp/s"
+              }
+            },
+            {
+              "burnedInCaptions": true,
+              "downloadUrl": "",
+              "streamUrl": "",
+              "filetype": "mp4",
+              "size": {
+                "width": 1920,
+                "height": 1080,
+                "filesize": "254 MB",
+                "speed": "10 Mbp/s"
+              }
+            }
+          ],
+          "transcipt": {
+            "srcUrl": "link to transcript pdf, url, etc",
+            "text": "text that was entered via text field"
+          }
+        }
+      ]
+    }
+  ]
+}
