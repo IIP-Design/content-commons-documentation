@@ -1,40 +1,41 @@
 [
   {
-    "id": 1540, // number
-    "site": "ylai.america.dev", // array of strings
-    "type": "video", // array of strings
-    "published": "2017-12-18T10:53:49+00:00", // array of strings
-    "modified": "2018-01-03T13:38:57+00:00", // array of strings
-    "owner": "Scott Gustas", // array of strings
-    "author": "Scott Gustas", // array of strings
+    "post_id": 1540, // number
+    "site": "ylai.america.dev", // string
+    "type": "video", // string
+    "published": "2017-12-18T10:53:49+00:00", // string
+    "modified": "2018-01-03T13:38:57+00:00", // string
+    "owner": "Scott Gustas", // string
+    "author": "Scott Gustas", // string
     "duration": 60, // number
-    "unit": [ // there is one unit for each language
-      {
+    "unit": [ // array
+      { // object (per language)
         "language": { // follows the same format as all other content types
-          "language_code": "en", // array of strings
-          "locale": "en-US", // array of strings
+          "language_code": "en", // string
+          "locale": "en-US", // string
           "text_direction": false, // boolean
-          "display_name": "English", // array of strings
-          "native_name": "English", // array of strings
+          "display_name": "English", // string
+          "native_name": "English", // string
           "different_language": true // boolean
         },
-        "title": "English Title", // array of strings
-        "desc": "English Description", // array of strings
-        "categories": [ // array of strings
-          "Category 1",
+        "title": "English Title", // string
+        "desc": "English Description", // string
+        "categories": [ // array
+          "Category 1", // string
           "Category 2"
         ],
-        "tags": [ // array of strings
-          "Tag 1",
+        "tags": [ // array
+          "Tag 1", // string
           "Tag 2"
         ],
-        "source": [
-          {
-            "burnedInCaptions": "no", // array of strings
+        "source": [ // array
+          { // object
+            "burnedInCaptions": "no", // string
             "downloadUrl": "http://ylai.edit.america.dev/wp-content/uploads/sites/2/2017/12/COE_s-dWsAAJp3S.mp4", // string
+            "checksum": "123abc", // string
             "streamUrl": "http://www.youtube.com/testvideo", // string
             "filetype": "mp4", // string
-            "size": {
+            "size": { // object
               "width": 640, // number
               "height": 360, // number
               "filesize": 197467, // number
@@ -42,11 +43,15 @@
             }
           }
         ],
-        "transcript": {
+        "transcript": { //object
           "srcUrl": "http://ylai.edit.america.dev/wp-content/uploads/sites/2/2016/06/P_010313_Planning_for_Success_English_LR.pdf", // string
+          "checksum": "abc123", //string
           "text": "Transcript goes here 'pt'." // string
         },
-        "srt": "http://ylai.edit.america.dev/wp-content/uploads/sites/2/2017/12/YALI_hero_wash_2x1-1.jpg" // string
+        "srt": { //object
+          "srcUrl": "http://ylai.edit.america.dev/wp-content/uploads/sites/2/2017/12/YALI_hero_wash_2x1-1.srt", // string
+          "checksum": "abc123" //string
+        }
       }
     ]
   }
