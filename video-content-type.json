@@ -32,7 +32,7 @@
           { // object
             "burnedInCaptions": "no", // string
             "downloadUrl": "http://ylai.edit.america.dev/wp-content/uploads/sites/2/2017/12/COE_s-dWsAAJp3S.mp4", // string
-            "checksum": "123abc", // string
+            "md5": "1a79a4d60de6718e8e5b326e338ae533", // string
             "streamUrl": "http://www.youtube.com/testvideo", // string
             "filetype": "mp4", // string
             "size": { // object
@@ -45,12 +45,12 @@
         ],
         "transcript": { //object
           "srcUrl": "http://ylai.edit.america.dev/wp-content/uploads/sites/2/2016/06/P_010313_Planning_for_Success_English_LR.pdf", // string
-          "checksum": "abc123", //string
+          "md5": "1a79a4d60de6718e8e5b326e338ae533", //string
           "text": "Transcript goes here 'pt'." // string
         },
         "srt": { //object
           "srcUrl": "http://ylai.edit.america.dev/wp-content/uploads/sites/2/2017/12/YALI_hero_wash_2x1-1.srt", // string
-          "checksum": "abc123" //string
+          "md5": "1a79a4d60de6718e8e5b326e338ae533" //string
         }
       }
     ]
