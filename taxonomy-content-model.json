@@ -1,0 +1,10 @@
+{
+  "primary": false,
+  "parents": ["1", "4"],
+  "synonymMapping": ["Governance"],
+  "language": {
+    "en": "Government",
+    "fr": "Gouvernement",
+    "es": "Gobierno"
+  }
+}
