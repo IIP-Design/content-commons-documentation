@@ -6,30 +6,32 @@
   "modified": "2018-02-26T20:26:37+00:00",
   "owner": "Tyler Hebenstreit",
   "author": "Tyler Hebenstreit",
-  "unit": [
+  "srcLink": "http://yali.state.gov/?p=26",
+  "slug": "english-title",
+  "title": "English Title",
+  "content": "The quick brown fox jumped over...",
+  "excerpt": "Something foxy.",
+  "categories": ["Category 1"],
+  "tags": ["Tag 1"],
+  "keywords": ["Keyword 1"],
+  "language": {
+    "language_code": "en",
+    "locale": "en-US"
+  },
+  "featured_image": {
+    "title": "Image Title",
+    "alt": "An image",
+    "caption": "The image is here",
+    "mime": "image/jpeg",
+    "srcUrl": "http://yali.state.gov/image.jpg",
+    "height": 1440,
+    "width": 2160
+  },
+  "translations": [
     {
-      "language": {
-        "language_code": "en",
-        "locale": "en-US",
-        "text_direction": "ltr",
-        "display_name": "English",
-        "native_name": "English"
-      },
-      "title": "English Title",
-      "content": "The quick brown fox jumped over...",
-      "excerpt": "Something foxy.",
-      "categories": ["Category 1"],
-      "tags": ["Tag 1"],
-      "keywords": ["Keyword 1"],
-      "featured_image": {
-        "title": "Image Title",
-        "alt": "An image",
-        "caption": "The image is here",
-        "mime": "image/jpeg",
-        "srcUrl": "http://yali.state.gov/image.jpg",
-        "height": 1440,
-        "width": 2160
-      }
+      "post_id": 27,
+      "language_code": "es",
+      "locale": "es-MX"
     }
   ]
 }
