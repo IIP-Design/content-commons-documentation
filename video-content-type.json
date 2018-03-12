@@ -21,12 +21,22 @@
         "title": "English Title", // string
         "desc": "English Description", // string
         "categories": [ // array
-          "Category 1", // string
-          "Category 2"
+          {
+            "id": "1",
+            "name": "Translated Category 1"
+          },
+          {
+            "id": "2",
+            "name": "Translated Category 2"
+          }
         ],
         "tags": [ // array
           "Tag 1", // string
           "Tag 2"
+        ],
+        "keywords": [
+          "WP Category 1",
+          "WP Tag 1"
         ],
         "source": [ // array
           { // object

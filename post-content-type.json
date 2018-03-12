@@ -11,9 +11,18 @@
   "title": "English Title",
   "content": "The quick brown fox jumped over...",
   "excerpt": "Something foxy.",
-  "categories": ["Category 1"],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Translated Category 1"
+    },
+    {
+      "id": "2",
+      "name": "Translated Category 2"
+    }
+  ],
   "tags": ["Tag 1"],
-  "keywords": ["Keyword 1"],
+  "keywords": ["WP Category 1"],
   "language": {
     "language_code": "en",
     "locale": "en-US"
