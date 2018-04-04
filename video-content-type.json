@@ -50,7 +50,8 @@
               "height": 360, // number
               "filesize": 197467, // number
               "bitrate": 627569.8013245 // number
-            }
+            },
+            "duration": "91.75"
           }
         ],
         "transcript": { //object
