@@ -8,6 +8,32 @@
     "owner": "Scott Gustas", // string
     "author": "Scott Gustas", // string
     "duration": 60, // number
+    "thumbnail": {
+      "small": {
+        "height": 200,
+        "width": 300,
+        "url": "http://cdp.local/wp-content/uploads/2018/02/tyler_photo-300x200.jpg",
+        "orientation": "landscape"
+      },
+      "medium": {
+        "height": 512,
+        "width": 768,
+        "url": "http://cdp.local/wp-content/uploads/2018/02/tyler_photo-768x512.jpg",
+        "orientation": "landscape"
+      },
+      "large": {
+        "url": "http://cdp.local/wp-content/uploads/2018/02/tyler_photo.jpg",
+        "height": 1440,
+        "width": 2160,
+        "orientation": "landscape"
+      },
+      "full": {
+        "url": "http://cdp.local/wp-content/uploads/2018/02/tyler_photo.jpg",
+        "height": 1440,
+        "width": 2160,
+        "orientation": "landscape"
+      }
+    },
     "unit": [ // array
       { // object (per language)
         "language": { // follows the same format as all other content types
@@ -43,7 +69,12 @@
             "burnedInCaptions": "no", // string
             "downloadUrl": "http://ylai.edit.america.dev/wp-content/uploads/sites/2/2017/12/COE_s-dWsAAJp3S.mp4", // string
             "md5": "1a79a4d60de6718e8e5b326e338ae533", // string
-            "streamUrl": "http://www.youtube.com/testvideo", // string
+            "streamUrl": [
+              {
+                "url": "http://www.youtube.com/testvideo", // string
+                "site": "youtube"
+              }
+            ],
             "filetype": "mp4", // string
             "size": { // object
               "width": 640, // number
