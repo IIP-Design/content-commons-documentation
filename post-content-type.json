@@ -36,11 +36,17 @@
     "height": 1440,
     "width": 2160
   },
-  "translations": [
+  "languages": [
     {
       "post_id": 27,
-      "language_code": "es",
-      "locale": "es-MX"
+      "language": {
+        "id": 1,
+        "language_code": "es",
+        "locale": "es-mx",
+        "text_direction": "ltr",
+        "display_name": "Spanish",
+        "native_name": "Español"
+      }
     }
   ]
 }
