@@ -66,7 +66,7 @@
         ],
         "source": [ // array
           { // object
-            "burnedInCaptions": "no", // string
+            "burnedInCaptions": false, // boolean
             "downloadUrl": "http://ylai.edit.america.dev/wp-content/uploads/sites/2/2017/12/COE_s-dWsAAJp3S.mp4", // string
             "md5": "1a79a4d60de6718e8e5b326e338ae533", // string
             "streamUrl": [
