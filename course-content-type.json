@@ -1,19 +1,17 @@
 {
-  "post_id": 26,
-  "site": "yali.state.gov",
-  "type": "post",
-  "published": "2018-02-07T17:55:36+00:00",
-  "modified": "2018-02-26T20:26:37+00:00",
-  "owner": "Tyler Hebenstreit",
+  "post_id": 46,
+  "site": "cdp.local",
+  "owner": "Content Delivery Platform",
+  "type": "courses",
+  "title": "Test course",
+  "excerpt": "This is excerpt",
+  "slug": "test-course",
+  "published": "2018-03-09T15:17:36+00:00",
+  "modified": "2018-04-19T15:08:07+00:00",
   "author": {
     "id": 1,
-    "name": "Tyler Hebenstreit"
+    "name": "thebenstreit"
   },
-  "link": "http://yali.state.gov/?p=26",
-  "slug": "english-title",
-  "title": "English Title",
-  "content": "The quick brown fox jumped over...",
-  "excerpt": "Something foxy.",
   "categories": [
     {
       "id": "1",
@@ -27,9 +25,14 @@
   "tags": ["Tag 1"],
   "keywords": ["WP Category 1"],
   "language": {
+    "_id": "AWKNa7GcdOZTaU7CiFIp",
     "language_code": "en",
-    "locale": "en-US"
+    "display_name": "English – British",
+    "native_name": "English",
+    "locale": "en-br",
+    "text_direction": "ltr"
   },
+  "branded": true,
   "thumbnail": {
     "small": {
       "height": 200,
@@ -56,17 +59,10 @@
       "orientation": "landscape"
     }
   },
-  "languages": [
+  "lessons": [
     {
-      "post_id": 27,
-      "language": {
-        "_id": 1,
-        "language_code": "es",
-        "locale": "es-mx",
-        "text_direction": "ltr",
-        "display_name": "Spanish",
-        "native_name": "Español"
-      }
+      "post_id": 47,
+      "title": "Lesson 1"
     }
   ]
 }
