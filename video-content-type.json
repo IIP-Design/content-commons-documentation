@@ -60,10 +60,14 @@
           "Tag 1", // string
           "Tag 2"
         ],
-        "keywords": [
-          "WP Category 1",
-          "WP Tag 1"
-        ],
+        "custom_taxonomies": {
+          "my_taxonomy": [
+            {
+              "id": 1,
+              "name": "My Tax Term"
+            }
+          ]
+        },
         "source": [ // array
           { // object
             "burnedInCaptions": false, // boolean

@@ -23,7 +23,14 @@
     }
   ],
   "tags": ["Tag 1"],
-  "keywords": ["WP Category 1"],
+  "custom_taxonomies": {
+    "my_taxonomy": [
+      {
+        "id": 1,
+        "name": "My Tax Term"
+      }
+    ]
+  },
   "language": {
     "_id": "AWKNa7GcdOZTaU7CiFIp",
     "language_code": "en",
