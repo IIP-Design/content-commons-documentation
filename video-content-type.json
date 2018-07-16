@@ -8,6 +8,30 @@
     "owner": "Scott Gustas", // string
     "author": "Scott Gustas", // string
     "duration": 60, // number
+    "tags": [ // array
+      "Tag 1", // string
+      "Tag 2"
+    ],
+    "site_taxonomies": {
+      "categories": [
+        {
+          "id": 1,
+          "name": "My Cat Term"
+        }
+      ],
+      "tags": [
+        {
+          "id": 1,
+          "name": "My Tag Term"
+        }
+      ],
+      "My Special Tax": [
+        {
+          "id": 1,
+          "name": "My Special Term"
+        }
+      ]
+    },
     "thumbnail": {
       "small": {
         "height": 200,
@@ -56,18 +80,6 @@
             "name": "Translated Category 2"
           }
         ],
-        "tags": [ // array
-          "Tag 1", // string
-          "Tag 2"
-        ],
-        "custom_taxonomies": {
-          "my_taxonomy": [
-            {
-              "id": 1,
-              "name": "My Tax Term"
-            }
-          ]
-        },
         "source": [ // array
           { // object
             "burnedInCaptions": false, // boolean
