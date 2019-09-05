@@ -150,6 +150,33 @@
           "md5": "1a79a4d60de6718e8e5b326e338ae533" //string
         }
       }
+    ],
+    "supportFiles": [ // array
+      { // object
+        "supportFileType": "srt", // string
+        "language": { // follows the same format as all other content types
+          "language_code": "en", // string
+          "locale": "en-US", // string
+          "text_direction": false, // boolean
+          "display_name": "English", // string
+          "native_name": "English", // string
+          "different_language": true // boolean
+        },
+        "srcUrl": "http://ylai.edit.america.dev/wp-content/uploads/sites/2/2017/12/YALI_hero_wash_2x1-1.srt", // string
+      },
+      { // object
+        "supportFileType": "transcript", // string
+        "language": { // follows the same format as all other content types
+          "language_code": "en", // string
+          "locale": "en-US", // string
+          "text_direction": false, // boolean
+          "display_name": "English", // string
+          "native_name": "English", // string
+          "different_language": true // boolean
+        },
+        "srcUrl": "http://ylai.edit.america.dev/wp-content/uploads/sites/2/2016/06/P_010313_Planning_for_Success_English_LR.pdf", // string
+        "text": "Transcript goes here 'pt'." // string
+      }
     ]
   }
 ]
