@@ -118,6 +118,16 @@
             "name": "Translated Category 2"
           }
         ],
+        "tags": [ // array
+          {
+            "id": "3",
+            "name": "Translated Tag 1"
+          },
+          {
+            "id": "4",
+            "name": "Translated Tag 2"
+          }
+        ],
         "source": [ // array
           { // object
             "burnedInCaptions": false, // boolean
