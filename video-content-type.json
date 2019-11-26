@@ -147,16 +147,19 @@
               "bitrate": 627569.8013245 // number
             },
             "duration": "91.75",
-            "video_quality": "web" // string
+            "video_quality": "web", // string
+            "visibility": "public" // string
           }
         ],
         "transcript": { //object
           "srcUrl": "http://ylai.edit.america.dev/wp-content/uploads/sites/2/2016/06/P_010313_Planning_for_Success_English_LR.pdf", // string
           "md5": "1a79a4d60de6718e8e5b326e338ae533", //string
+          "visibility": "public", //string
           "text": "Transcript goes here 'pt'." // string
         },
         "srt": { //object
           "srcUrl": "http://ylai.edit.america.dev/wp-content/uploads/sites/2/2017/12/YALI_hero_wash_2x1-1.srt", // string
+          "visibility": "public", //string
           "md5": "1a79a4d60de6718e8e5b326e338ae533" //string
         }
       }
@@ -164,6 +167,7 @@
     "supportFiles": [ // array
       { // object
         "supportFileType": "srt", // string
+        "visibility": "public", //string
         "language": { // follows the same format as all other content types
           "language_code": "en", // string
           "locale": "en-US", // string
@@ -176,6 +180,7 @@
       },
       { // object
         "supportFileType": "transcript", // string
+        "visibility": "internal", //string
         "language": { // follows the same format as all other content types
           "language_code": "en", // string
           "locale": "en-US", // string
