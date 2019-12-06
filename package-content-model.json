@@ -5,7 +5,13 @@
   "published": "2017-12-18T10:53:49+00:00",
   "modified": "2018-01-03T13:38:57+00:00",
   "items": [
-    "es_doc_id1",
-    "es_doc_id2"
+    {
+      "id": "es_doc_id1",
+      "type": "document"
+    },
+    {
+      "id": "es_doc_id2",
+      "type": "document"
+    }
   ]
 }
