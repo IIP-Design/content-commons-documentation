@@ -1,5 +1,5 @@
 {
-  "post_id": 1234,
+  "id": 1234,
   "site": "commons.america.gov",
   "type": "document",
   "published": "2017-12-18T10:53:49+00:00",
@@ -26,32 +26,10 @@
       "alt": "Image Alt",
       "caption": "Image caption",
       "longdesc": "Image description",
-      "sizes": {
-        "small": {
-          "height": 200,
-          "width": 300,
-          "url": "http://cdp.local/wp-content/uploads/2018/02/tyler_photo-300x200.jpg",
-          "orientation": "landscape"
-        },
-        "medium": {
-          "height": 512,
-          "width": 768,
-          "url": "http://cdp.local/wp-content/uploads/2018/02/tyler_photo-768x512.jpg",
-          "orientation": "landscape"
-        },
-        "large": {
-          "url": "http://cdp.local/wp-content/uploads/2018/02/tyler_photo.jpg",
-          "height": 1440,
-          "width": 2160,
-          "orientation": "landscape"
-        },
-        "full": {
-          "url": "http://cdp.local/wp-content/uploads/2018/02/tyler_photo.jpg",
-          "height": 1440,
-          "width": 2160,
-          "orientation": "landscape"
-        }
-      }
+      "url": "http://cdp.local/wp-content/uploads/2018/02/tyler_photo.jpg",
+      "height": 1440,
+      "width": 2160,
+      "orientation": "landscape"
     }
   ],
   "url": "https://amgov-publisher-dev.s3.amazonaws.com/2019/11/commons.america.gov_1234/Lesotho_national_day.doc",
