@@ -11,7 +11,8 @@
     "title": "Image Project Title", // string
     "public_desc": "Public Description", // string
     "internal_desc": "Internal Description", // string
-    "categories": [ // array
+    "categories": [
+      // array
       {
         "id": "1",
         "name": "Category 1"
@@ -21,30 +22,37 @@
         "name": "Category 2"
       }
     ],
-    "tags": [ // array
+    "tags": [
+      // array
       "Tag 1", // string
       "Tag 2"
     ],
     "protected": true, // boolean
-    "units": [ // array
-      { // object (per language)
-        "language": { // follows the same format as all other content types
+    "units": [
+      // array
+      {
+        // object (per language)
+        "language": {
+          // follows the same format as all other content types
           "language_code": "en", // string
           "locale": "en-US", // string
-          "text_direction": false, // boolean
+          "text_direction": "ltr", // string
           "display_name": "English", // string
           "native_name": "English", // string
           "different_language": true // boolean
         },
-        "images": [ // array
-          { // object
+        "images": [
+          // array
+          {
+            // object
             "src": "http://commons.america.gov/images/preserve-the-earth-2018-en.jpg", // string
             "md5": "1a79a4d60de6718e8e5b326e338ae533", // string
             "filetype": "jpg", // string
-            "size": { // object
+            "size": {
+              // object
               "width": 640, // number
               "height": 360, // number
-              "filesize": 197467, // number
+              "filesize": 197467 // number
             },
             "quality": "web", // string
             "use": "infographic", // string

@@ -8,7 +8,8 @@
     "owner": "Scott Gustas", // string
     "author": "Scott Gustas", // string
     "duration": 60, // number
-    "tags": [ // array
+    "tags": [
+      // array
       "Tag 1", // string
       "Tag 2"
     ],
@@ -64,12 +65,15 @@
         }
       }
     },
-    "unit": [ // array
-      { // object (per language)
-        "language": { // follows the same format as all other content types
+    "unit": [
+      // array
+      {
+        // object (per language)
+        "language": {
+          // follows the same format as all other content types
           "language_code": "en", // string
           "locale": "en-US", // string
-          "text_direction": false, // boolean
+          "text_direction": "ltr", // string
           "display_name": "English", // string
           "native_name": "English", // string
           "different_language": true // boolean
@@ -108,7 +112,8 @@
             }
           }
         },
-        "categories": [ // array
+        "categories": [
+          // array
           {
             "id": "1",
             "name": "Translated Category 1"
@@ -118,7 +123,8 @@
             "name": "Translated Category 2"
           }
         ],
-        "tags": [ // array
+        "tags": [
+          // array
           {
             "id": "3",
             "name": "Translated Tag 1"
@@ -128,8 +134,10 @@
             "name": "Translated Tag 2"
           }
         ],
-        "source": [ // array
-          { // object
+        "source": [
+          // array
+          {
+            // object
             "burnedInCaptions": false, // boolean
             "downloadUrl": "http://ylai.edit.america.dev/wp-content/uploads/sites/2/2017/12/COE_s-dWsAAJp3S.mp4", // string
             "md5": "1a79a4d60de6718e8e5b326e338ae533", // string
@@ -140,7 +148,8 @@
               }
             ],
             "filetype": "mp4", // string
-            "size": { // object
+            "size": {
+              // object
               "width": 640, // number
               "height": 360, // number
               "filesize": 197467, // number
@@ -151,40 +160,47 @@
             "visibility": "public" // string
           }
         ],
-        "transcript": { //object
+        "transcript": {
+          //object
           "srcUrl": "http://ylai.edit.america.dev/wp-content/uploads/sites/2/2016/06/P_010313_Planning_for_Success_English_LR.pdf", // string
           "md5": "1a79a4d60de6718e8e5b326e338ae533", //string
           "visibility": "public", //string
           "text": "Transcript goes here 'pt'." // string
         },
-        "srt": { //object
+        "srt": {
+          //object
           "srcUrl": "http://ylai.edit.america.dev/wp-content/uploads/sites/2/2017/12/YALI_hero_wash_2x1-1.srt", // string
           "visibility": "public", //string
           "md5": "1a79a4d60de6718e8e5b326e338ae533" //string
         }
       }
     ],
-    "supportFiles": [ // array
-      { // object
+    "supportFiles": [
+      // array
+      {
+        // object
         "supportFileType": "srt", // string
         "visibility": "public", //string
-        "language": { // follows the same format as all other content types
+        "language": {
+          // follows the same format as all other content types
           "language_code": "en", // string
           "locale": "en-US", // string
-          "text_direction": false, // boolean
+          "text_direction": "ltr", // string
           "display_name": "English", // string
           "native_name": "English", // string
           "different_language": true // boolean
         },
-        "srcUrl": "http://ylai.edit.america.dev/wp-content/uploads/sites/2/2017/12/YALI_hero_wash_2x1-1.srt", // string
+        "srcUrl": "http://ylai.edit.america.dev/wp-content/uploads/sites/2/2017/12/YALI_hero_wash_2x1-1.srt" // string
       },
-      { // object
+      {
+        // object
         "supportFileType": "transcript", // string
         "visibility": "internal", //string
-        "language": { // follows the same format as all other content types
+        "language": {
+          // follows the same format as all other content types
           "language_code": "en", // string
           "locale": "en-US", // string
-          "text_direction": false, // boolean
+          "text_direction": "ltr", // string
           "display_name": "English", // string
           "native_name": "English", // string
           "different_language": true // boolean

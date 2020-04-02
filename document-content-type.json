@@ -9,7 +9,7 @@
   "language": {
     "language_code": "en",
     "locale": "en-US",
-    "text_direction": false,
+    "text_direction": "ltr",
     "display_name": "English",
     "native_name": "English"
   },

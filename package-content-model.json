@@ -5,6 +5,13 @@
   "type": "package",
   "desc": "Package description",
   "visibility": "INTERNAL",
+  "language": {
+    "language_code": "en",
+    "locale": "en-US",
+    "text_direction": "ltr",
+    "display_name": "English",
+    "native_name": "English"
+  },
   "published": "2017-12-18T10:53:49+00:00",
   "modified": "2018-01-03T13:38:57+00:00",
   "owner": "GPA Press Office",
