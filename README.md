@@ -19,4 +19,5 @@ View the response structure of each content type by API
 | VOA Editorials | Agency for Global Media |
 | ShareAmerica | Department of State |
 | YLAI | Department of State |
+| YALI | Department of State |
 | U.S. Missions | Department of State|
