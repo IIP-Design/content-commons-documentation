@@ -4,6 +4,7 @@ The Content Commons is the portal to search and share content from the U.S. Depa
 
 Share, embed, or download public diplomacy content to use on any channel or website — a campaign, program, or Embassy website, as well as Facebook, Twitter, and YouTube.
 
+<br/><br/>
 
 ### Team list with content type permissions:
 
