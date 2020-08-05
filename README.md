@@ -1,4 +1,8 @@
 # Content Commons Documentation
+## Discover and share public diplomacy content from the U.S. Department of State
+The Content Commons is the portal to search and share content from the U.S. Department of State’s Bureau of Global Public Affairs (GPA).
+
+Share, embed, or download public diplomacy content to use on any channel or website — a campaign, program, or Embassy website, as well as Facebook, Twitter, and YouTube.
 
 
 ### Team list with content type permissions:
