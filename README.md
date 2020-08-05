@@ -1,7 +1,5 @@
 # Content Commons Documentation
 
-View the response structure of each content type by API
-
 
 ### Team list with content type permissions:
 
