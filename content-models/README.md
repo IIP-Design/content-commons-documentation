@@ -1,1 +1,1 @@
-# View the response object of each content type for each API
+View the response structure of each content type by API
