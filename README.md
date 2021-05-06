@@ -10,17 +10,22 @@ Share, embed, or download public diplomacy content to use on any channel or webs
 
 | TEAM | ORGANIZATION | PERMISSIONS |
 | ---- | ------------ | ----------- |
-| GPA Video| Department of State | VIDEO |
-| GPA Editorial & Design | Department of State | GRAPHIC |
-| GPA Press Office | Department of State | DOCUMENT, PACKAGE |
-| GPA Media Strategy | Department of State |
-| GPA Front Office | Department of State |
 | American Spaces | Department of State |
-| U.S. Speakers Program | Department of State |
+| Bureau of African Affairs (AF) | Department of State | GRAPHIC |
 | ECA | Department of State |
+| ECA PASC | Department of State | GRAPHIC |
 | Global Engagement Center | Department of State |
-| VOA Editorials | Agency for Global Media |
+| GPA Editorial & Design | Department of State | GRAPHIC |
+| GPA Front Office | Department of State |
+| GPA Global Campaigns Strategy Unit | Department of State | DOCUMENT, PACKAGE |
+| GPA Media Strategy | Department of State |
+| GPA Press Office | Department of State | DOCUMENT, PACKAGE |
+| GPA Video| Department of State | VIDEO |
+| OES | Department of State | GRAPHIC
+| Regional Media Hubs | Department of State | GRAPHIC |
 | ShareAmerica | Department of State |
+| U.S. Missions | Department of State| GRAPHIC |
+| U.S. Speakers Program | Department of State | 
+| VOA Editorials | Agency for Global Media | VIDEO |
 | YLAI | Department of State |
 | YALI | Department of State |
-| U.S. Missions | Department of State|
