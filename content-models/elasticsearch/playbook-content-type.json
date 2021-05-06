@@ -1,0 +1,53 @@
+{
+  "id" : "ckm40y77k0niz08414n2unq7c",
+  "site" : "commons.america.gov",
+  "title" : "Climate Communications Playbook",
+  "desc" : "Secretary Blinken’s Climate Speech and Preview of the Leaders Summit on Climate",
+  "type" : "playbook",
+  "published" : "2021-03-10T22:39:39.038Z",
+  "modified" : "2021-03-10T22:39:39.038Z",
+  "created" : "2021-03-10T22:39:13.664Z", 
+  "visibility" : "INTERNAL",
+  "owner" : "GPA Global Campaigns Strategy Unit",
+  "language" : {
+    "language_code" : "en",
+    "locale" : "en-us",
+    "text_direction" : "ltr",
+    "display_name" : "English",
+    "native_name" : "English"
+  },
+  "content": {
+    "html": "<p><strong>OES/MED Press Guidance</strong></p><p><strong>March 16, 2020</strong></p><p><strong>Vaccines for the Novel Coronavirus that Causes COVID-19</strong></p><p><strong>BLUF: To solve the challenges in front of us, we are taking a whole-of-America approach, working together with public health officials, the private sector, academia, and non-profits.  </strong></p>"
+  },
+  "supportFiles" : [ {
+      "filename" : "Hold Lines- Evacuations for U.S. Citizens.docx",
+      "visibility" : "PUBLIC",
+      "editable" : false,
+      "language" : {
+        "language_code" : "en",
+        "text_direction" : "ltr",
+        "locale" : "en-us",
+        "display_name" : "English",
+        "native_name" : "English"
+      },
+      "url" : "https://staticcdpdev.s3.amazonaws.com/social_media/2021/04/commons.america.gov_cknghb4iz040i0941z5g0j94c/Hold_Lines-_Evacuations_for_U.S._Citizens.docx"
+    }
+  ],
+  "priority": {
+    "id" : "pZYZGXgBLuL2GU1JbtXw",
+    "name" : "climate crisis",
+    "theme": "#94BFA2" 
+  },
+  "categories" : [
+    {
+      "id" : "pZYZGXgBLuL2GU1JbtXw",
+      "name" : "environment"
+    }
+  ],
+  "tags" : [
+    {
+      "id" : "pZYZGXgBLuLsy21JbtXw",
+      "name" : "climate"
+    }
+  ]
+}
