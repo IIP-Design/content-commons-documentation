@@ -1,0 +1,91 @@
+;
+; Archive created at 2022-05-27 18:19:17 UTC
+;     dbname: postgres
+;     TOC Entries: 81
+;     Compression: 0
+;     Dump Version: 1.14-0
+;     Format: TAR
+;     Integer: 4 bytes
+;     Offset: 8 bytes
+;     Dumped from database version: 13.5
+;     Dumped by pg_dump version: 14.3 (Ubuntu 14.3-0ubuntu0.22.04.1)
+;
+;
+; Selected TOC Entries:
+;
+4887; 0 375650 TABLE DATA prisma_dev Bureau devprismaadmin
+4888; 0 375656 TABLE DATA prisma_dev Category devprismaadmin
+4889; 0 375659 TABLE DATA prisma_dev CommonsResource devprismaadmin
+4890; 0 375665 TABLE DATA prisma_dev ContentField devprismaadmin
+4911; 0 375788 TABLE DATA prisma_dev Region devprismaadmin
+4891; 0 375671 TABLE DATA prisma_dev Country devprismaadmin
+4892; 0 375677 TABLE DATA prisma_dev Dimensions devprismaadmin
+4905; 0 375752 TABLE DATA prisma_dev Mission devprismaadmin
+4893; 0 375680 TABLE DATA prisma_dev DiplomaticPost devprismaadmin
+4897; 0 375704 TABLE DATA prisma_dev DocumentType devprismaadmin
+4903; 0 375740 TABLE DATA prisma_dev Language devprismaadmin
+4917; 0 375821 TABLE DATA prisma_dev Team devprismaadmin
+4920; 0 375839 TABLE DATA prisma_dev User devprismaadmin
+4894; 0 375686 TABLE DATA prisma_dev Document devprismaadmin
+4895; 0 375692 TABLE DATA prisma_dev DocumentConversionFormat devprismaadmin
+4898; 0 375710 TABLE DATA prisma_dev DocumentUse devprismaadmin
+4896; 0 375698 TABLE DATA prisma_dev DocumentFile devprismaadmin
+4899; 0 375716 TABLE DATA prisma_dev GraphicProject devprismaadmin
+4900; 0 375722 TABLE DATA prisma_dev GraphicStyle devprismaadmin
+4902; 0 375734 TABLE DATA prisma_dev ImageUse devprismaadmin
+4901; 0 375728 TABLE DATA prisma_dev ImageFile devprismaadmin
+4904; 0 375746 TABLE DATA prisma_dev LanguageTranslation devprismaadmin
+4906; 0 375758 TABLE DATA prisma_dev Office devprismaadmin
+4907; 0 375764 TABLE DATA prisma_dev Organization devprismaadmin
+4908; 0 375770 TABLE DATA prisma_dev Package devprismaadmin
+4910; 0 375782 TABLE DATA prisma_dev PolicyPriority devprismaadmin
+4909; 0 375776 TABLE DATA prisma_dev Playbook devprismaadmin
+4912; 0 375794 TABLE DATA prisma_dev SocialPlatform devprismaadmin
+4913; 0 375800 TABLE DATA prisma_dev SocialResource devprismaadmin
+4915; 0 375812 TABLE DATA prisma_dev SupportFileUse devprismaadmin
+4914; 0 375806 TABLE DATA prisma_dev SupportFile devprismaadmin
+4916; 0 375818 TABLE DATA prisma_dev Tag devprismaadmin
+4918; 0 375830 TABLE DATA prisma_dev Thumbnail devprismaadmin
+4919; 0 375833 TABLE DATA prisma_dev Toolkit devprismaadmin
+4921; 0 375845 TABLE DATA prisma_dev UserNotification devprismaadmin
+4926; 0 375878 TABLE DATA prisma_dev VideoUse devprismaadmin
+4922; 0 375854 TABLE DATA prisma_dev VideoFile devprismaadmin
+4923; 0 375860 TABLE DATA prisma_dev VideoProject devprismaadmin
+4924; 0 375866 TABLE DATA prisma_dev VideoStream devprismaadmin
+4925; 0 375872 TABLE DATA prisma_dev VideoUnit devprismaadmin
+4927; 0 375884 TABLE DATA prisma_dev _BureauToDocument devprismaadmin
+4928; 0 375887 TABLE DATA prisma_dev _BureauToDocumentFile devprismaadmin
+4929; 0 375890 TABLE DATA prisma_dev _CategoryToDocument devprismaadmin
+4930; 0 375893 TABLE DATA prisma_dev _CategoryToDocumentFile devprismaadmin
+4931; 0 375896 TABLE DATA prisma_dev _CategoryToGraphicProject devprismaadmin
+4932; 0 375899 TABLE DATA prisma_dev _CategoryToLanguageTranslation devprismaadmin
+4933; 0 375902 TABLE DATA prisma_dev _CategoryToPackage devprismaadmin
+4934; 0 375905 TABLE DATA prisma_dev _CategoryToPlaybook devprismaadmin
+4935; 0 375908 TABLE DATA prisma_dev _CategoryToToolkit devprismaadmin
+4936; 0 375911 TABLE DATA prisma_dev _CategoryToVideoProject devprismaadmin
+4937; 0 375914 TABLE DATA prisma_dev _CategoryToVideoUnit devprismaadmin
+4938; 0 375920 TABLE DATA prisma_dev _CountryToDocument devprismaadmin
+4939; 0 375923 TABLE DATA prisma_dev _CountryToDocumentFile devprismaadmin
+4940; 0 375926 TABLE DATA prisma_dev _CountryToMission devprismaadmin
+4941; 0 375929 TABLE DATA prisma_dev _CountryToPlaybook devprismaadmin
+4942; 0 375932 TABLE DATA prisma_dev _DiplomaticPostToDocument devprismaadmin
+4943; 0 375935 TABLE DATA prisma_dev _DirectlyRelatedBureaus devprismaadmin
+4944; 0 375941 TABLE DATA prisma_dev _DocumentFileToOffice devprismaadmin
+4945; 0 375947 TABLE DATA prisma_dev _DocumentFileToRegion devprismaadmin
+4946; 0 375950 TABLE DATA prisma_dev _DocumentFileToTag devprismaadmin
+4947; 0 375956 TABLE DATA prisma_dev _DocumentToMission devprismaadmin
+4948; 0 375959 TABLE DATA prisma_dev _DocumentToOffice devprismaadmin
+4949; 0 375962 TABLE DATA prisma_dev _DocumentToPolicyPriority devprismaadmin
+4950; 0 375965 TABLE DATA prisma_dev _DocumentToRegion devprismaadmin
+4951; 0 375968 TABLE DATA prisma_dev _DocumentToTag devprismaadmin
+4952; 0 375971 TABLE DATA prisma_dev _DocumentToTeam devprismaadmin
+4953; 0 375980 TABLE DATA prisma_dev _GraphicProjectToTag devprismaadmin
+4954; 0 375983 TABLE DATA prisma_dev _ImageFileToSocialPlatform devprismaadmin
+4955; 0 375989 TABLE DATA prisma_dev _LanguageTranslationToTag devprismaadmin
+4956; 0 375992 TABLE DATA prisma_dev _PackageToTag devprismaadmin
+4957; 0 375995 TABLE DATA prisma_dev _PlaybookToRegion devprismaadmin
+4958; 0 376004 TABLE DATA prisma_dev _PlaybookToTag devprismaadmin
+4959; 0 376013 TABLE DATA prisma_dev _TagToToolkit devprismaadmin
+4960; 0 376016 TABLE DATA prisma_dev _TagToVideoProject devprismaadmin
+4961; 0 376019 TABLE DATA prisma_dev _TagToVideoUnit devprismaadmin
+4962; 0 376025 TABLE DATA prisma_dev _UserToUserNotification devprismaadmin

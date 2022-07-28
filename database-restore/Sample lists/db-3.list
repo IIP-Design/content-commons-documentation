@@ -1,0 +1,19 @@
+;
+; Archive created at 2022-05-10 11:39:12 UTC
+;     dbname: postgres
+;     TOC Entries: 80
+;     Compression: 0
+;     Dump Version: 1.14-0
+;     Format: TAR
+;     Integer: 4 bytes
+;     Offset: 8 bytes
+;     Dumped from database version: 13.5 (Debian 13.5-1.pgdg110+1)
+;     Dumped by pg_dump version: 13.5 (Debian 13.5-1.pgdg110+1)
+;
+;
+; Selected TOC Entries:
+;
+ 
+3671; 0 17764 TABLE DATA commons$dev DocumentConversionFormat prisma
+3677; 0 17800 TABLE DATA commons$dev ImageFile prisma 
+3693; 0 17896 TABLE DATA commons$dev Thumbnail prisma
